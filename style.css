@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color:cadetblue;
+    padding: 30px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    height: 440px;
+    color: #fff;
+    font-size: 25px;
+}
+
+#main{
+    width: 80%;
+    background-color:coral;
+}
+
+#side-bar{
+    width: 20%;
+    background-color: crimson;
+}
+
+footer{
+    background-color:darkgray;
+    font-size: 25px;
+    color: #fff;
+    padding: 40px;
+}
+
+/* TEXT CENTER  */
+#main, #side-bar, footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
