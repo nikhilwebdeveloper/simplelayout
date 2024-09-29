@@ -40,3 +40,15 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+/* RESPONSIVE */
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    main{
+        display: block;
+        height: auto;
+    }
+    #main, #side-bar{
+        width: 100%;
+        height: 34vh;
+    }
+}
